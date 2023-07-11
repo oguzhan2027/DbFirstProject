@@ -1,0 +1,22 @@
+﻿model List<WebApplication2.Models.Entities.TBLService>
+
+    @{
+        ViewBag.Title = "AddService";
+        Layout = "~/Views/Shared/_portfolioadminlayout.cshtml";
+    }
+
+    <h2>AddService</h2>
+    <form method="post">
+        <label>hizmet başlığı</label>
+        <input type="text" class="form-control" name="ServiceTitle" />
+        <br />
+        <label>hizmet ikonu</label>
+        <input type="text" class="form-control" name="ServiceIcon" />
+        <label>hizmet numarası</label>
+        <input type="text" class="form-control" name="ServiceNumber" />
+        <label>hizmet içeriği</label>
+        <input type="text" class="form-control" name="ServiceContent" />
+        <br />
+        <button class="btn btn-info">hizmeti kaydet</button>
+    </form>
+

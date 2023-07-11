@@ -1,0 +1,16 @@
+﻿@model WebApplication2.Models.Entities.TBLService
+@{
+    ViewBag.Title = "UpdateService";
+    Layout = "~/Views/Shared/_portfolioadminlayout.cshtml";
+}
+
+<h2>Hizmet Gğüncelleme</h2>
+<form method="post">
+    <label>hizmet başlıgı</label>
+    @Html.TextBoxFor(x => x.ServiceTitle, new { @class = "form-control" })
+    @Html.TextBoxFor(x => x.ServiceIcon, new { @class = "form-control" })
+    @Html.TextBoxFor(x => x.ServiceNumber, new { @class = "form-control" })
+    @Html.TextBoxFor(x => x.ServiceContent, new { @class = "form-control" })
+    <button class="btn btn-success">verileri gunceller</button>
+</form>
+

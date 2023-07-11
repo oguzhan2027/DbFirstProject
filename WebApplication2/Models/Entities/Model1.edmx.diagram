@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="624dde907ddc4a6395254b8bf54dcaf6" Name="Diagram1">
+        <EntityTypeShape EntityType="casgemModel.TblFeature" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="casgemModel.TblMessage" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="casgemModel.TBLService" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="casgemModel.TblResume" Width="1.5" PointX="3.375" PointY="3.75" />
+        <EntityTypeShape EntityType="casgemModel.sysdiagrams" Width="1.5" PointX="5.375" PointY="4.75" />
+        <EntityTypeShape EntityType="casgemModel.TblDepartment" Width="1.5" PointX="5.375" PointY="1.375" />
+        <EntityTypeShape EntityType="casgemModel.TblEmployee" Width="1.5" PointX="7.625" PointY="1" />
+        <AssociationConnector Association="casgemModel.FK_TblEmployee_TblDepartment" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
