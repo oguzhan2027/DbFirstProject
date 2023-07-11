@@ -20,6 +20,7 @@ namespace WebApplication2.Controllers
             ViewBag.totalCityCount=db.TblEmployee.Distinct().Count();
             ViewBag.avgEmployeeSalary= db.TblEmployee.Average(x=> x.EmployeeSalary);
             ViewBag.countSofWareDepartment=db.TblEmployee.Where(x=>x.EmployeeDepartment==db.TblDepartment.Where(z=>z.DepartmentName=="Yazılım").Select(y=>y.DepartmentID).FirstOrDefault()).Count();
+            ViewBag.
             return View();
         }
     }
